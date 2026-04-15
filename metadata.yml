@@ -1,0 +1,35 @@
+name: MiniXL
+category: Project
+description: >
+  Extra Large FOV Miniscope (MiniXL) — a 3.5-gram miniaturized fluorescence
+  microscope with a 3.5 mm field of view for imaging neuronal activity in
+  freely moving mice and larger animals. Second generation of the MiniLFOV.
+
+specs:
+  field_of_view: 3.5 mm
+  resolution: ~3 um
+  working_distance: 1.9 mm
+  focal_adjustment: +/-200 um
+  weight: 3.5 g
+  height: 30 mm
+
+features:
+  - Modular, achromatic optics
+  - Absolute head orientation sensor (BNO055)
+  - Electronic focal adjustment via electrowetting lens
+  - Single coaxial cable (down to 0.3 mm) for power, communication, and data
+  - No soldering required
+
+components:
+  - pcb
+  - optics
+  - housing
+  - baseplate
+  - holder
+
+citation:
+  doi: 10.1126/sciadv.ads4995
+  bibtex: CITATION.bib
+
+wiki:
+  base_path: /MiniXL/repo

@@ -1,0 +1,26 @@
+# KiCad
+*.kicad_prl
+*-backups/
+*.lck
+*.bak
+*~
+fp-info-cache
+
+# Zemax
+*.SES
+*.LCK
+
+# CAD
+*.autosave
+*.bak
+thumbs.db
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
