@@ -21,7 +21,7 @@ features:
   - No soldering required
 
 components:
-  - pcb
+  - pcb/rigid-flex
   - optics
   - housing
   - baseplate

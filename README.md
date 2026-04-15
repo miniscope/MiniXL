@@ -18,8 +18,9 @@ The MiniXL is the second generation of the MiniLFOV, a large field-of-view minia
 ## Repository Structure
 
 ```
-pcb/                Rigid-flex PCB design (KiCad) and fabrication outputs
-  fabrication/      Gerber and drill files for manufacturing
+pcb/                PCB designs (KiCad)
+  rigid-flex/       Main rigid-flex PCB assembly
+    fabrication/    Gerber and drill files for manufacturing
 optics/             Optical design (Zemax) source files
   plots/            Standardized output plots (MTF, spot diagrams, etc.)
 housing/            3D printed microscope body
