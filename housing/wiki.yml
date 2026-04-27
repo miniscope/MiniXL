@@ -1,0 +1,17 @@
+kind: hardware_component
+name: MiniXL Housing
+version: 1.0.0
+description: 3D printed microscope body housing for the MiniXL.
+
+hardware_type: 3D_printed
+source_path: housing
+
+design_files:
+  fusion_360:
+    - MiniXL_bottom.f3d
+    - MiniXL_side.f3d
+    - MiniXL_top.f3d
+  fabrication:
+    - fabrication/MiniXL_bottom.stl
+    - fabrication/MiniXL_side.stl
+    - fabrication/MiniXL_top.stl

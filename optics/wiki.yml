@@ -1,14 +1,21 @@
+kind: hardware_component
 name: MiniXL Optical Assembly
-category: Hardware_Component
-hardware_type: optical
-
-description: >
+version: 1.0.0
+description: |
   Achromatic fluorescence imaging optics with 3.5 mm FOV, ~3 um resolution,
   and 1.9 mm working distance. Modular design supports cortical imaging
   through cranial windows and deep brain imaging with implanted probes.
 
+hardware_type: optical
+source_path: optics
+
+specs:
+  - {name: Field of View,    value: "3.5", unit: mm}
+  - {name: Resolution,       value: "~3",  unit: um}
+  - {name: Working Distance, value: "1.9", unit: mm}
+
 design_files:
   zemax_project: Mini_V4_FOV-3mm_NA-0d2_Good_Final_v2_07072020_Good_V2_Good.zmx
   zemax_archive: Mini_V4_FOV-3mm_NA-0d2_Good_Final_v2_07072020_Good_V2_Good.zar
-  lens_data: Mini_V4_FOV-3mm_NA-0d2_Good_Final_v2_07072020_Good_V2_Good.ZDA
-  plots_dir: plots/
+  lens_data:     Mini_V4_FOV-3mm_NA-0d2_Good_Final_v2_07072020_Good_V2_Good.ZDA
+  plots_dir:     plots/

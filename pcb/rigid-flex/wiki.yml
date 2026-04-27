@@ -1,0 +1,19 @@
+kind: hardware_component
+name: MiniXL Rigid-Flex PCB
+version: 1.0.0
+description: |
+  4-layer rigid-flex PCB assembly integrating the CMOS image sensor,
+  LED excitation, serializer/deserializer, IMU (BNO055), and electrowetting
+  lens driver onto a single foldable board.
+
+hardware_type: PCB
+source_path: pcb/rigid-flex
+
+design_files:
+  schematic:        MiniXL.kicad_sch
+  pcb_layout:       MiniXL.kicad_pcb
+  project:          MiniXL.kicad_pro
+  fabrication_dir:  fabrication/
+
+layers: 4
+substrate: rigid-flex
