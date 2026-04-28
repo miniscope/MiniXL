@@ -3,7 +3,7 @@ name: MiniXL Housing
 version: 0.1.0
 description: 3D printed microscope body housing for the MiniXL.
 
-hardware_type: 3D_printed
+hardware_type: 3D Printed
 source_path: housing
 
 design_files:
