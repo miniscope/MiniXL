@@ -1,6 +1,6 @@
 kind: hardware_component
 name: MiniXL Optical Assembly
-version: 1.0.0
+version: 0.1.0
 description: |
   Achromatic fluorescence imaging optics with 3.5 mm FOV, ~3 um resolution,
   and 1.9 mm working distance. Modular design supports cortical imaging

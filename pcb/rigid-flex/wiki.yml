@@ -1,6 +1,6 @@
 kind: hardware_component
 name: MiniXL Rigid-Flex PCB
-version: 1.0.0
+version: 0.1.0
 description: |
   4-layer rigid-flex PCB assembly integrating the CMOS image sensor,
   LED excitation, serializer/deserializer, IMU (BNO055), and electrowetting
