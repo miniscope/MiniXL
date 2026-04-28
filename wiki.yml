@@ -29,5 +29,13 @@ features:
   - Single coaxial cable (down to 0.3 mm) for power, communication, and data
   - No soldering required
 
+images:
+  - path: assets/img/Fig1-v14_A1.png
+    caption: MiniXL system overview (Fig. 1A1)
+    kind: figure
+  - path: assets/img/Fig1-v14_A3.png
+    caption: MiniXL system overview (Fig. 1A3)
+    kind: figure
+
 wiki:
   base_path: MiniXL
