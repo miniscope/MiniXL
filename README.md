@@ -25,9 +25,9 @@ optics/             Optical design (Zemax) source files
   plots/            Standardized output plots (MTF, spot diagrams, etc.)
 housing/            3D printed microscope body
 baseplate/          Head-mount baseplate
-holder/             Bench alignment holder
 assets/             Images and resources for documentation
-metadata.yml        Project metadata (synced to miniscope.org wiki on release)
+wiki.yml            Top-level metadata; per-component wiki.yml files in each subdir
+                    are picked up by wiki-repo-bridge and synced on release tags.
 ```
 
 ## How to Cite

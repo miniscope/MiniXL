@@ -15,5 +15,6 @@ design_files:
   project:          MiniXL.kicad_pro
   fabrication_dir:  fabrication/
 
-layers: 4
-substrate: rigid-flex
+specs:
+  - {name: Layers,    value: "4"}
+  - {name: Substrate, value: "rigid-flex"}
