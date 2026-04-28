@@ -19,3 +19,8 @@ design_files:
   zemax_archive: Mini_V4_FOV-3mm_NA-0d2_Good_Final_v2_07072020_Good_V2_Good.zar
   lens_data:     Mini_V4_FOV-3mm_NA-0d2_Good_Final_v2_07072020_Good_V2_Good.ZDA
   plots_dir:     plots/
+
+images:
+  - path: plots/Mini_V4_FOV-3mm_NA-0d2_Good_Final1_07072020_00.png
+    caption: Zemax optical design layout
+    kind: plot
