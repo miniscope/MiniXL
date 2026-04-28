@@ -6,7 +6,7 @@ description: |
   and 1.9 mm working distance. Modular design supports cortical imaging
   through cranial windows and deep brain imaging with implanted probes.
 
-hardware_type: optical
+hardware_type: Optical
 source_path: optics
 
 specs:
