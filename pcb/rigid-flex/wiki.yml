@@ -6,7 +6,7 @@ description: |
   LED excitation, serializer/deserializer, IMU (BNO055), and electrowetting
   lens driver onto a single foldable board.
 
-hardware_type: PCB
+hardware_type: Circuit Board
 source_path: pcb/rigid-flex
 
 design_files:
