@@ -3,7 +3,7 @@ name: MiniXL Baseplate
 version: 0.1.0
 description: Head-mount baseplate for affixing the MiniXL to an animal during imaging.
 
-hardware_type: 3D_printed
+hardware_type: 3D Printed
 source_path: baseplate
 
 design_files:
