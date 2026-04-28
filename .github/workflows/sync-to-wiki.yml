@@ -32,4 +32,6 @@ jobs:
       tag: ${{ inputs.tag }}
       dry_run: ${{ inputs.dry_run || false }}
       changelog: ${{ inputs.changelog || '' }}
-    secrets: inherit
+    secrets:
+      WIKI_REPO_BOT_USER: ${{ secrets.WIKI_REPO_BOT_USER }}
+      WIKI_REPO_BOT_PASSWORD: ${{ secrets.WIKI_REPO_BOT_PASSWORD }}
